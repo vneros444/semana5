@@ -53,6 +53,7 @@ namespace WebApplication1.Controllers
         {
             string mensaje = string.Empty;
             Alumno Alumno3 = new Alumno("Adonis", "Veneros", "62152820", new DateTime(2003, 04, 21));
+            string numero = "siete";
             return Alumno3.DevolverEdad();
         }
     }
